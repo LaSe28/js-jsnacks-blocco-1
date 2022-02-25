@@ -99,6 +99,7 @@ Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
 */
 
+
 // let number = prompt('Dammi un numero a 4 cifre:');
 
 // if (number.length != 4){
@@ -123,3 +124,24 @@ e calcola la somma di tutte le cifre che compongono il numero.
 // }else {
 //     alert(`il risultato è ${result}`)
 // }
+
+// oppure***********************************************
+
+// let number = prompt('Dammi un numero a 4 cifre:');
+// let result = 0;
+
+// if (number.length != 4){
+//     alert('numero errato')
+// } else if (isNaN(number)){
+//     alert('questo non è un numero')
+// }
+
+// for (let i = 0; i < number.length; i++){
+//     result = result + parseInt(number[i])
+// }
+
+// if(isNaN(result)){
+// }else {
+//     alert(`il risultato è ${result}`)
+// }
+
