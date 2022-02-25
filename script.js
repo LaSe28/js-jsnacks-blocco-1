@@ -63,7 +63,7 @@ no alla festa.
 // let invitato = false
 
 // for (let i = 0; i < invitati.length; i++){
-//     if (invitati[i] == userName ){
+//     if (invitati[i].toLowerCase() == userName.toLowerCase() ){
 //        invitato = true
 //     }
 // }
