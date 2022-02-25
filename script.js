@@ -16,7 +16,7 @@ Il software stampa il maggiore.
 // }
 
 
-/*
+/*******************************************************************************************
 Snack 1.2
 L'utente inserisce due parole in successione con due prompt.
 Il software deve stampare prima la parola più corta, poi la parola più lunga
@@ -34,7 +34,7 @@ Il software deve stampare prima la parola più corta, poi la parola più lunga
 // }
 
 
-/*
+/*******************************************************************************************
 Snack 1.3
 Il software deve chiedere all'utente 10 volte di inserire un numero.
 ilprogramma stampa la smma di tutti i numeri inseriti
@@ -50,7 +50,7 @@ ilprogramma stampa la smma di tutti i numeri inseriti
 
 // alert(`Il risultato è ${result}`)
 
-/*
+/*******************************************************************************************
 Snack 1.4
 In un array sono contenuti i nomi degli invitati alla festa del grande
 Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o
@@ -75,32 +75,31 @@ no alla festa.
 // }
 
 
-/* 
+/*******************************************************************************************
 Snack 1.5
 Crea un array vuoto.
 Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.
 */
 
-
 // let result = [] 
 
 // for (let i = 0; i < 6; i++){
 //     let number = parseInt(prompt("Inserisci un numero"))
-//     if(number % 2){
+//     if(number % 2 != 0){
 //         result.push(number);
 //     }
 // }
 
 // alert(`I numeri dispari sono: ${result}`)
 
-/* 
+/*******************************************************************************************
 Snack 1.6
 Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
 */
 
-let number = prompt('Dammi un numero a 4 cifre:');
+// let number = prompt('Dammi un numero a 4 cifre:');
 
 // if (number.length != 4){
 //     alert('numero errato')
@@ -108,22 +107,19 @@ let number = prompt('Dammi un numero a 4 cifre:');
 //     alert('questo non è un numero')
 // }
 
-let arr = []
+// let arr = []
 
-for (let i = 0; i < number.length; i++){
-    arr.push(number[i])
-}
+// for (let i = 0; i < number.length; i++){
+//     arr.push(number[i])
+// }
 
+// num1 = parseInt(arr[0])
+// num2 = parseInt(arr[1])
+// num3= parseInt(arr[2])
+// num4 = parseInt(arr[3])
+// result = num1 + num2 + num3 + num4
 
-let result = 0;
-for (let i = 0; i < arr.length; i++) {
-    result += arr[i];
-}
-
-alert(result)
-console.log(number)
-console.log(result)
-
-
-
-// let result = (number[0] + number[1] + number[2] + number[3]);
+// if(isNaN(result)){
+// }else {
+//     alert(`il risultato è ${result}`)
+// }
