@@ -145,3 +145,86 @@ e calcola la somma di tutte le cifre che compongono il numero.
 //     alert(`il risultato è ${result}`)
 // }
 
+/* 
+snack 1.9
+calcola la somma e la media dei primi 10 numeri
+*/
+
+// let number = []
+
+// sum = 0;
+
+// for (let i = 1 ; i <= 10; i++){
+//     sum += i
+//     console.log(sum)
+// }
+
+// let media = sum / 10
+// console.log(`la media è ${media}`)
+
+/*
+Snack 2.1
+Il software deve chiedere per 5 volte all’utente di inserire un numero.
+Il programma stampa la somma di tutti i numeri inseriti.
+Esegui questo programma in due versioni, con il for e con il while.
+*/
+
+// let result = 0;
+
+// for (let i = 0; i < 5; i++ ){
+//     let number = parseInt(prompt("Dammi un numero"));
+//     result += number;
+// }
+// alert(`Il risultato è ${result}`)
+
+/*************************************************WHILE*****************************************************/
+// let arr=[];
+// let result = 0;
+
+// let i = 0
+
+// while (arr.length < 5){
+//     let number = parseInt(prompt("Dammi un numero"));
+//     result += number;
+//     arr.push(number)
+//     i++
+// }
+// alert(`Il risultato è ${result}`)
+
+
+/******************************************************************************************************/
+
+/*
+Snack 2.2
+Inserisci un numero, se è pari stampa il numero,
+se è dispari stampa il numero successivo
+*/
+
+// let number = parseInt(prompt(`Dammi un numero pari`));
+
+// if (number % 2 == 0){
+//     alert(`il numero è ${number}`)
+// } else{
+//     let even = number + 1
+//     alert(`adesso il numero è ${even}`)
+// }
+
+
+/******************************************************************************************************/
+
+/*
+Snack 2.3
+Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, 
+Gatsby vuole generare una falsa lista di 3 invitati.
+*/
+
+let nomi = ['Andrea','Davide','Luca']
+let cognomi = ['Gualtieri','Granada','Florio']
+
+
+for (let i = 0; i <= 2 ; i++){
+    let falseNames = nomi[Math.floor(Math.random()*3)] + ' ' + cognomi[Math.floor(Math.random()*3)]
+    console.log(falseNames)
+}
+
+
