@@ -145,7 +145,9 @@ e calcola la somma di tutte le cifre che compongono il numero.
 //     alert(`il risultato è ${result}`)
 // }
 
-/* 
+
+/*******************************************************************************************
+
 snack 1.9
 calcola la somma e la media dei primi 10 numeri
 */
@@ -162,7 +164,8 @@ calcola la somma e la media dei primi 10 numeri
 // let media = sum / 10
 // console.log(`la media è ${media}`)
 
-/*
+/*******************************************************************************************
+
 Snack 2.1
 Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
@@ -192,9 +195,7 @@ Esegui questo programma in due versioni, con il for e con il while.
 // alert(`Il risultato è ${result}`)
 
 
-/******************************************************************************************************/
-
-/*
+/*******************************************************************************************
 Snack 2.2
 Inserisci un numero, se è pari stampa il numero,
 se è dispari stampa il numero successivo
@@ -210,9 +211,7 @@ se è dispari stampa il numero successivo
 // }
 
 
-/******************************************************************************************************/
-
-/*
+/*******************************************************************************************
 Snack 2.3
 Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, 
 Gatsby vuole generare una falsa lista di 3 invitati.
