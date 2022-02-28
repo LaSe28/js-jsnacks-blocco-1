@@ -218,13 +218,21 @@ Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una list
 Gatsby vuole generare una falsa lista di 3 invitati.
 */
 
-let nomi = ['Andrea','Davide','Luca']
-let cognomi = ['Gualtieri','Granada','Florio']
+// let nomi = ['Andrea','Davide','Luca']
+// let cognomi = ['Gualtieri','Granada','Florio']
+// let randomName = []
+
+// let i = 0
+// while (randomName.length <= 2){
+//     let falseName = ' '+nomi[Math.floor(Math.random()*3)] + ' ' + cognomi[Math.floor(Math.random()*3)]
+//     if (randomName.includes(falseName)==false){
+//         randomName.push(falseName)
+//     }
+//     i++
+//     console.log(falseName)
+// }
+// alert(`Gli invitati sono: ${randomName}`)
 
 
-for (let i = 0; i <= 2 ; i++){
-    let falseNames = nomi[Math.floor(Math.random()*3)] + ' ' + cognomi[Math.floor(Math.random()*3)]
-    console.log(falseNames)
-}
 
 
